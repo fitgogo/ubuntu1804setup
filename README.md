@@ -45,6 +45,6 @@ exec $SHELL -l
 
 ### go
 
-### nodejsのインストール
+### nodejs
 
-### pythonのインストール
+### python
