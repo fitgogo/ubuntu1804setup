@@ -17,19 +17,17 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 sudo apt install xdg-user-dirs-gtk
 LANG=C xdg-user-dirs-gtk-update
 
-## ツール類の置き場を準備
+## ツール類の置き場を準備する
 
 mkdir -p ~/tools
 
+## プロジェクトの置き場を準備する
 
-## 個別アプリをインストール
-
-* vs code
-* google chrome
+mkdir -p ~/projects
 
 ## 必要なアプリケーションをインストール
 
-* anyenv
+### anyenv
 git clone https://github.com/riywo/anyenv ~/.anyenv
 echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(anyenv init -)"' >> ~/.bashrc
@@ -39,8 +37,14 @@ anyenv install goenv
 anyenv install pyenv
 exec $SHELL -l
 
-## goのインストール
+### docker
 
-## nodejsのインストール
+### vs code
 
-## pythonのインストール
+### google chrome
+
+### go
+
+### nodejsのインストール
+
+### pythonのインストール
