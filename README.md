@@ -52,9 +52,17 @@ sudo apt install docker-compose
 ### vs code
 
 ### google chrome
+chrome deb package download
 
 ### go
 
+goenv install 1.15.3
+
 ### nodejs
 
+nodenv install 15.0.1
+
 ### python
+
+sudo apt install zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev
+puenv install 3.8.6
