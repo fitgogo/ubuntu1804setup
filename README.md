@@ -50,9 +50,9 @@ exec $SHELL -l
 sudo apt install docker-compose
 
 ### vs code
-
+visual studio code deb package download
 ### google chrome
-chrome deb package download
+chrome deb package deb download
 
 ### go
 
