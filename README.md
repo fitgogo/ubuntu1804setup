@@ -47,6 +47,8 @@ exec $SHELL -l
 
 ### docker
 
+sudo apt install docker-compose
+
 ### vs code
 
 ### google chrome
