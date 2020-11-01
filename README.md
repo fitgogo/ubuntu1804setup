@@ -15,6 +15,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 ## ホームディレクトリを英字表記に変更
 
 sudo apt install xdg-user-dirs-gtk
+
 LANG=C xdg-user-dirs-gtk-update
 
 ## ツール類の置き場を準備する
@@ -29,12 +30,19 @@ mkdir -p ~/projects
 
 ### anyenv
 git clone https://github.com/riywo/anyenv ~/.anyenv
+
 echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> ~/.bashrc
+
 echo 'eval "$(anyenv init -)"' >> ~/.bashrc
+
 exec $SHELL -l
+
 anyenv install nodenv
+
 anyenv install goenv
+
 anyenv install pyenv
+
 exec $SHELL -l
 
 ### docker
