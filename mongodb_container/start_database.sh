@@ -1,7 +1,7 @@
 #!/bin/sh
 
 docker run --name mongodb\
-	-v /home/dev/tools/mongodb_container/volume:/mnt\
+	-v /home/dev/tools/ubuntu1804setup/mongodb_container/volume:/mnt\
 	-e MONGO_INITDB_ROOT_USERNAME=root\
 	-e MONGO_INITDB_ROOT_PASSWORD=password\
 	-p 27017:27017\

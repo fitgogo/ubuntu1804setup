@@ -1,7 +1,7 @@
 #!/bin/sh
 
 docker run --name mariadb\
-	-v /home/dev/tools/mariadb_container/volume:/mnt \
+	-v /home/dev/tools/ubuntu1804setup/mariadb_container/volume:/mnt \
 	-e MYSQL_ROOT_PASSWORD=password \
 	-e MYSQL_DATABASE=james \
 	-p 3306:3306 \

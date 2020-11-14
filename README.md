@@ -83,5 +83,6 @@ nodenv install 15.0.1
 
 ### python
 
-sudo apt install zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev
-puenv install 3.8.6
+sudo apt install zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev build-essential
+
+pyenv install 3.8.6
