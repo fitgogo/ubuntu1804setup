@@ -1,5 +1,23 @@
 # ubuntu1804 setup
 
+## リポジトリの変更
+
+理化学研究所のリポジトリに変更する例
+
+sudo sed -i.bak -e "s%http://jp.archive.ubuntu.com/ubuntu/%http://ftp.riken.go.jp/Linux/ubuntu/%g" /etc/apt/sources.list
+
+北陸先端科学技術大学院大学に変更する例
+
+sudo sed -i.bak -e "s%http://jp.archive.ubuntu.com/ubuntu/%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list
+
+KDDI研究所に変更する例
+
+sudo sed -i.bak -e "s%http://jp.archive.ubuntu.com/ubuntu/%http://www.ftp.ne.jp/Linux/packages/ubuntu/archive/%g" /etc/apt/sources.list
+
+## デスクトップ環境をmateに変更
+
+sudo apt -y install ubuntu-mate-desktop 
+
 ## 日本語化　mozcの設定
 
 sift + spaceで変換　無変換が切り替わるように設定する
