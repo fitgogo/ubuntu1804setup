@@ -86,3 +86,8 @@ nodenv install 15.0.1
 sudo apt install zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev build-essential
 
 pyenv install 3.8.6
+
+pip install pipenv
+
+echo 'export PIPENV_VENV_IN_PROJECT=true' >> ~/.bashrc
+
