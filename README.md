@@ -67,6 +67,10 @@ exec $SHELL -l
 
 sudo apt install docker-compose
 
+### sqlite3
+
+sudo apt install sqlite3
+
 ### vs code
 visual studio code deb package download
 
@@ -83,7 +87,7 @@ nodenv install 15.0.1
 
 ### python
 
-sudo apt install zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev build-essential
+sudo apt install zlib1g-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev build-essential libffi-dev
 
 pyenv install 3.8.6
 
